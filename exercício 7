@@ -1,0 +1,21 @@
+let numeros = console.log(Number('digite um numero de 1 a 5'))
+
+switch (numeros) {
+    case 1:
+        console.log('Voce escolheu 1')
+        break;
+    case 2:
+        console.log('Voce escolheu 2')
+        break;
+    case 3:
+        console.log('Voce escolheu 3')
+        break
+    case 4:
+        console.log('Voce escolheu 4')
+        break;
+    case 5:
+        console.log('Voce escolheu 5')
+        break;
+    default: console.log('Opcao invalida')
+        break;
+}
