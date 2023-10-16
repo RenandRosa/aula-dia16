@@ -1,0 +1,17 @@
+let produto = console.log('Digite um codigo A B ou C')
+
+switch (produto) {
+    case 'A':
+        console.log('Voce escolheu xbox series s')
+        console.log('Valor R$2.200,00')
+        break;
+    case 'B':
+        console.log('Voce escolheu controle xbox series s')
+        console.log('Valor R$365,00')
+        break;
+    case 'C':
+        console.log('Voce escolheu capa de proteção')
+        console.log('Valor R$50,00')
+    default: 'Não existem mais produtos'
+        break;
+}
