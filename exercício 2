@@ -1,0 +1,24 @@
+let cor = console.log('Digite uma cor')
+
+switch (cor) {
+    case 'amarelo' :
+        console.log('Amarelo me lembra o sol')
+        break
+    case 'azul' :
+        console.log('Azul me lembra o céu')
+        break
+    case 'vermelho' :
+        console.log('Vermelho me lembra sangue')
+        break
+    case 'verde' :
+        console.log('Verde me lembra natureza')
+        break
+    case 'branco' :
+        console.log('Branco me lembra luz')
+        break
+    case 'preto' :
+        console.log('Preto me lembra noite')
+        break
+    default: console.log('Nao pensei em mais cores')
+        break
+}
