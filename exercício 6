@@ -1,0 +1,15 @@
+let meioDeTransporte = console.log('Escolha um meio de transporte (carro, onibus, caminhão)')
+
+switch (meioDeTransporte) {
+    case 'carro':
+        console.log('A velocidade média de um carro é de 190km/h')
+        break;
+    case 'caminhão':
+        console.log('A velocidade média de um caminhão é de 80km/h')
+        break
+    case 'onibus':
+        console.log('A velocidade média de um onibus é 40km/h ')
+        break
+    default:console.log('Voce não escolheu nenhuma das opcoes pedidas')
+        break;
+}
